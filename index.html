@@ -7,30 +7,45 @@
   
   
   <body>
-      <div class="display_box">
+      
+    <div class="navbar">
+      <p class="name">Jessica B.</p>
+      <a href="/Portfolio/index.html">Home</a>
+      <a href="/Portfolio/contact.html">Contact</a>
+    </div>
+    <div class="display_box">
+      
+
+
+        <h1 id="greeting"><script>
+          let clock = [
+            [0, 4, "u up?"], 
+            [5, 11, "good morning"], 
+            [12, 16, "good afternoon"],
+            [17, 24, "good evening"]
+          ]
+            hr = new Date().getHours();
+          for (let i = 0; i < clock.length; i++) {
+            if (hr >= clock[i][0] && hr <= clock[i][1]) {
+              document.getElementById("greeting").innerHTML = clock[i][2];
+            }
+          }
+  
+        </script></h1>
         <div class="bio">
-            <h1>Welcome,</h1>
-            <br>
-            <p>-I'm a frontend developer based in Rock Island, IL.</p>
-            <br>
-            <p>-Almost nothing is more pleasurable to me than building
-                a website that has a smooth design, with an even smoother 
-                experience.
-            </p>
-            <p class="right">-Jessica B.</p>
-        </div>
-        <div class="projects">
-            <h3>>recent projects</h3>
-            <ul>
-                <li>project one</li>
-                <li>project two</li>
-                <li>project three</li>
-            </ul>
-        </div>
-        <div class="socials">
-            <p>social media icons here</p>
-        </div>
+        <p>-I'm a frontend developer based in Rock Island, Illinois. 
+          I love building responsive websites, animating objects in 
+          processing, and deliberating over color palettes.</p>
+        <p class="right">-Jessica B.</p>
+    </div>
+      <div class="projects">
+        <h2>projects</h2>
+          
       </div>
+      <div class="socials">
+        <p>social media icons here</p>
+      </div>
+    </div>
   </body>
 
 </html>
