@@ -1,34 +1,96 @@
+:root {
+    --background-color: #3A4A3F;
+    --text-color: #FEFFE5;
+    --border-color: #DC9887;
+    --accent-color: #E8BB44;
+    
+    --head-text: asset_400, Impact, 'Arial Narrow Bold', sans-serif;
+    --reg-text: prata, Georgia, 'Times New Roman', serif;
+}
+
+@font-face {
+    font-family: asset_400;
+    src: url(./fonts/asset-regular.ttf);
+}
+
+@font-face {
+    font-family: prata;
+    src: url(./fonts/Prata-Regular.ttf);
+}
+
 body {
-    background-color: black;
+    background-color: var(--background-color);
+}
+
+.name {
+    font-size: 16px;
+    line-height: 0.25; 
+    display: inline-block;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding-left: 75px;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: var(--background-color);
+    font-family: var(--nonhead-text);
+    border: 2px solid var(--border-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 20px;
+    width: 25%;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+p {
+    font-family: var(--reg-text);
+    color: var(--text-color);
+    letter-spacing: 0.1;
 }
 
 .display_box {
-    margin: 10%;
-    border: 2px solid white;
-    background-color: black;
-    color: white;
-    display: grid;
-    grid-template: 2fr 4fr 1fr / 2fr 1fr;
-    grid-template-areas: "bio projects"
-                         "bio projects"
-                         "bio socials";
+    margin: 3%;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+#greeting {
+    font-size: 58px;
+    font-family: var(--head-text);
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-left: 50px;
+    display: block;
+}
+
+h2 {
+    font-family: var(--head-text);
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-left: 50px;
+    display: block;
 }
 
 .bio {
-    grid-area: bio;
-    justify-items: center;
-    padding: 15% 30% 25% 30%;
+    margin: 10px 50% 10px 75px;
 }
 
-.projects {
-    grid-area: projects;
-    justify-items: center;
-    padding: 65% 15% 20% 10%;
+.right {
+    text-align: right;
 }
 
 .socials {
-    grid-area: socials;
-    justify-content: right;
-    padding-left: 40%;
-    padding-right: 3%;
+    float: right;
 }
+
