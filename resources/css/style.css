@@ -5,18 +5,8 @@
     --accent-color: #E8BB44;
     --overlay-color: rgba(254, 255, 229, 0.7);
     
-    --head-text: asset_400, Impact, 'Arial Narrow Bold', sans-serif;
-    --reg-text: prata, Georgia, 'Times New Roman', serif;
-}
-
-@font-face {
-    font-family: asset_400;
-    src: url(./fonts/asset-regular.ttf);
-}
-
-@font-face {
-    font-family: prata;
-    src: url(./fonts/Prata-Regular.ttf);
+    --head-text: Verdana, 'Arial Narrow Bold', sans-serif;
+    --reg-text: Georgia, 'Times New Roman', serif;
 }
 
 body {
@@ -69,6 +59,8 @@ p {
 #greeting {
     font-size: 58px;
     font-family: var(--head-text);
+    font-weight: bolder;
+    letter-spacing: 0.1em;
     color: var(--text-color);
     padding-top: 10px;
     padding-left: 50px;
@@ -101,7 +93,7 @@ h2 {
     padding-top: 10px;
     padding-left: 50px;
     margin-top: 150px;
-    font-size: 32px;
+    font-size: 36px;
     display: block;
 }
 
