@@ -156,6 +156,10 @@ h2 {
     font-weight: bold;
 }
 
+.contact_link {
+    color: var(--border-color);
+}
+
 .socials {
     float: right;
 }
