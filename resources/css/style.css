@@ -5,8 +5,13 @@
     --accent-color: #E8BB44;
     --overlay-color: rgba(254, 255, 229, 0.7);
     
-    --head-text: Verdana, 'Arial Narrow Bold', sans-serif;
+    --head-text: josefine, Verdana, 'Arial Narrow Bold', sans-serif;
     --reg-text: Georgia, 'Times New Roman', serif;
+}
+
+@font-face {
+    font-family: josefine;
+    src: url("../css/fonts/NT\ Josefine\ \(only\ personal\ use\).otf");
 }
 
 body {
@@ -14,8 +19,10 @@ body {
 }
 
 .name {
-    font-size: 16px;
-    line-height: 0.25; 
+    font-family: var(--head-text);
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 0.2; 
     display: inline-block;
     color: var(--text-color);
 }
@@ -23,7 +30,7 @@ body {
 a.nav {
     color: var(--text-color);
     text-decoration: none;
-    padding-left: 75px;
+    padding-left: 55px;
 }
 
 a:hover {
@@ -39,7 +46,7 @@ a:hover {
     position: absolute;
     top: 20px;
     width: 25%;
-    height: 33px;
+    height: 35px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -47,6 +54,7 @@ a:hover {
 
 p {
     font-family: var(--reg-text);
+    font-size: 18px;
     letter-spacing: 0.1;
 }
 
@@ -57,12 +65,10 @@ p {
 }
 
 #greeting {
-    font-size: 58px;
+    font-size: 70px;
     font-family: var(--head-text);
-    font-weight: bolder;
-    letter-spacing: 0.1em;
-    color: var(--text-color);
-    padding-top: 10px;
+    letter-spacing: 0.15em;
+    color: var(--border-color);
     padding-left: 50px;
     display: block;
 }
@@ -74,7 +80,14 @@ h2 {
 
 .bio {
     color: var(--text-color);
-    margin: 75px 50% 10px 75px;
+    margin: /*75px*/ 0px 50% 10px 75px;
+}
+
+.bio h2 {
+    color: var(--border-color);
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    margin-top: 40px;
 }
 
 .right {
@@ -89,11 +102,13 @@ h2 {
 }
 
 .pro_head {
-    color: var(--text-color);
+    color: var(--border-color);
+
     padding-top: 10px;
     padding-left: 50px;
-    margin-top: 150px;
-    font-size: 36px;
+    /*margin-top: 150px;*/
+    font-size: 38px;
+    letter-spacing: 0.1em;
     display: block;
 }
 
