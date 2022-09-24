@@ -1,8 +1,9 @@
 :root {
-    --background-color: #3A4A3F;
+    --background-color: #111613;
     --text-color: #FEFFE5;
     --border-color: #DC9887;
     --accent-color: #E8BB44;
+    --overlay-color: rgba(254, 255, 229, 0.7);
     
     --head-text: asset_400, Impact, 'Arial Narrow Bold', sans-serif;
     --reg-text: prata, Georgia, 'Times New Roman', serif;
@@ -26,6 +27,7 @@ body {
     font-size: 16px;
     line-height: 0.25; 
     display: inline-block;
+    color: var(--text-color);
 }
 
 a {
@@ -55,7 +57,6 @@ a:hover {
 
 p {
     font-family: var(--reg-text);
-    color: var(--text-color);
     letter-spacing: 0.1;
 }
 
@@ -75,19 +76,80 @@ p {
 }
 
 h2 {
-    font-family: var(--head-text);
-    color: var(--text-color);
-    padding-top: 10px;
-    padding-left: 50px;
     display: block;
+    font-family: var(--head-text);
 }
 
 .bio {
-    margin: 10px 50% 10px 75px;
+    color: var(--text-color);
+    margin: 75px 50% 10px 75px;
 }
 
 .right {
     text-align: right;
+}
+
+.projects {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pro_head {
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-top: 150px;
+    font-size: 32px;
+    display: block;
+}
+
+.image {
+    position: relative;
+}
+
+.port_photo {
+    display: block;
+    width: 650px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 50px 25px 50px;
+    border: 1px solid var(--border-color);
+}
+
+.image_overlay {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 651px;
+    height: 301px;
+    background: var(--overlay-color);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    opacity: 0;
+    transition: opacity 0.25s linear 0.05s;
+}
+
+.image_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+
+.image_overlay:hover {
+    opacity: 1;
+}
+
+.image_overlay:hover > * {
+    transform: translateY(0);
+}
+
+.port_text {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: (--background-color);
+    font-weight: bold;
 }
 
 .socials {

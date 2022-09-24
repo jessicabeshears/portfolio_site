@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <link href="resources/css/style.css" rel="stylesheet">
     <title>Jessica B.</title>
   </head>
-  
-  
+
   <body>
       
     <div class="navbar">
@@ -13,11 +13,9 @@
       <a href="/Portfolio/index.html">Home</a>
       <a href="/Portfolio/contact.html">Contact</a>
     </div>
+
     <div class="display_box">
-      
-
-
-        <h1 id="greeting"><script>
+      <h1 id="greeting"><script>
           let clock = [
             [0, 4, "u up?"], 
             [5, 11, "good morning"], 
@@ -30,21 +28,44 @@
               document.getElementById("greeting").innerHTML = clock[i][2];
             }
           }
-  
         </script></h1>
-        <div class="bio">
+
+      <div class="bio">
         <p>-I'm a frontend developer based in Rock Island, Illinois. 
           I love building responsive websites, animating objects in 
           processing, and deliberating over color palettes.</p>
         <p class="right">-Jessica B.</p>
-    </div>
-      <div class="projects">
-        <h2>projects</h2>
-          
       </div>
+
+      
+      <h2 class="pro_head">recent projects</h2>
+      <div class="projects">
+        <div class="image">
+          <img class="port_photo" src="file:///C:/Portfolio/resources/css/images/excursion.png" alt="Excursion app">
+            <div class="image_overlay">
+              <div class="port_text">
+                <h2>Excursion</h2>
+                <p>This page features an image clipped to text, 
+                a video that autoplays and loops, and css transitions on links</p>
+              </div>
+            </div>
+          </div>
+        <div class="image">
+          <img class="port_photo" src="file:///C:/Portfolio/resources/css/images/tea_cozy.png" alt="Tea Cozy site">
+            <div class="image_overlay">  
+              <div class="port_text">
+                <h2>Tea Cozy</h2>
+                <p>This site was created from a design mockup with flex boxes and a
+                nav bar that stays at the top of the page.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    
       <div class="socials">
         <p>social media icons here</p>
       </div>
+
     </div>
   </body>
 
