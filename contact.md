@@ -1,3 +1,7 @@
+layout: page
+title: "contact"
+permalink: /contact/
+
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +16,6 @@
       <a class="nav" href="https://jessicabeshears.github.io/portfolio_site/">Home</a>
       <a class="nav" href="https://jessicabeshears.github.io/portfolio_site/contact">Contact</a>
     </div>
-    
     <div class="display_box">
       <div class="bio">
         <h2>Hello, my name is Jessica B.</h2>
@@ -25,27 +28,22 @@
           Quad Cities and finished my Bachelor&#39;s Degree at St. Ambrose University. While 
           working full-time, I decided to start coding again and spent many early mornings and 
           late nights to earn certificates through Codecademy.</p>   
-
         <p>My personal goal is to further build my knowledge in frontend development, and 
           begin learning some backend languages in order to understand how the two fit together. 
           I love learning and the idea that there will always be something new to pick up in the 
           tech field is so exciting to me. I find writing code and watching it work to be so 
           rewarding - even more so after squashing bugs.</p>
-          
         <p>On top of HTML5/CSS, JavaScript, Git, Processing, and Arduino - I can work in Adobe 
           Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, and Dreamweaver. My soft 
           skills include time management, critical thinking, troubleshooting, and creative problem 
           solving.</p>  
-          
         <p>Outside of developing, my hobbies include: paper-crafting, embroidery, record collecting, 
           learning Mandarin, reading classic literature, being alone in the woods, riding my bike 
           along the Mississippi, and playing Lord of the Rings Online.</p>    
-          
         <p>Feel free to check out my <a class="contact_link" href="https://github.com/jessicabeshears">GitHub</a>, 
-          <a class="contact_link" href="https://www.linkedin.com/in/jessicabeshears/">LinkedIn</a>, 
+        <a class="contact_link" href="https://www.linkedin.com/in/jessicabeshears/">LinkedIn</a>, 
           or shoot me an <a class="contact_link" href="mailto:jessicabeshears@gmail.com">email</a> 
           if you&#39;d like to get in contact.</p>
-          
         <p>You can download my resume <a class="contact_link" href="file:///C:/Portfolio/resources/css/docs/Jessica%20Beshears%20-%20Resume%20'22.pdf" download>here.</a></p>
       </div>
       <div class="socials">
