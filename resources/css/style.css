@@ -30,7 +30,7 @@ body {
     color: var(--text-color);
 }
 
-a {
+a.nav {
     color: var(--text-color);
     text-decoration: none;
     padding-left: 75px;
@@ -109,6 +109,10 @@ h2 {
     position: relative;
 }
 
+.image a {
+    color: var(--background-color)
+}
+
 .port_photo {
     display: block;
     width: 650px;
@@ -154,5 +158,11 @@ h2 {
 
 .socials {
     float: right;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin: 15px 20px 20px 0px;
 }
 
