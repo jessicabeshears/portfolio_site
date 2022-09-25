@@ -3,11 +3,17 @@ README
 Portfolio Site
 ==============
 
-This is my portfolio site using HTML/CSS and Javascript.
+Hello! 
+This is my first portfolio site using HTML/CSS and Javascript.
+I say first, because I'm sure I will be creating another soon enough. 
+     
+Lessons learned:  
+- Start design with small screens in mind, and then build from there. 
+- Declare text and color variables first in CSS, because I will want to change them.  
+- If there's a bug: check your spelling first, parent/child containers second, and google third.
+- Links might work fine locally...the final product is not local.
+- Comment, comment, comment. Just because you wrote something does not mean you'll remember it.
 
-I plan to make the pages dynamic with transitions for text and on hover.
-I am also planning on embedding a processing sketch into the background.
+Overall, I'm excited to be finished with the site - it means that I can start working on other projects to add to it. Eventually I'll have enough to build a whole new site with a separate page just for projects!
 
-- The front page has a nav bar at the top, with my bio, recent projects, and social media links below it. 
-- The portfolio page contains all of my projects that are on the site. 
-- The contact page has my information with a downloadable resume.  
+ 
