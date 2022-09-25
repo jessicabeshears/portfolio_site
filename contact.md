@@ -10,13 +10,14 @@ permalink: /contact/
     <title>Jessica B.</title>
   </head>
 
+
   <body>
     <div class="navbar">
       <p class="name">Jessica B.</p>
       <a class="nav" href="https://jessicabeshears.github.io/portfolio_site/">Home</a>
       <a class="nav" href="https://jessicabeshears.github.io/portfolio_site/contact">Contact</a>
     </div>
-    <div class="display_box">
+    <div class="contact_display">
       <div class="bio">
         <h2>Hello, my name is Jessica B.</h2>
         <p>I&#39;m a freelance frontend developer living 
@@ -46,11 +47,16 @@ permalink: /contact/
           if you&#39;d like to get in contact.</p>
         <p>You can download my resume <a class="contact_link" href="file:///C:/Portfolio/resources/css/docs/Jessica%20Beshears%20-%20Resume%20'22.pdf" download>here.</a></p>
       </div>
+      <div class="photos">
+        <img class="photo_st_1" src="../Portfolio/resources/css/images/books.JPG">
+        <img class="head_shot" src="../Portfolio/resources/css/images/head.jpg">
+        <img class="photo_st_2" src="../Portfolio/resources/css/images/records.jpg">
+      </div>
+    </div>
       <div class="socials">
         <a href="https://github.com/jessicabeshears"><img class="icon" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/icons/iconmonstr-github-1-240.png" alt="github"></a>
         <a href="https://www.linkedin.com/in/jessicabeshears/"><img class="icon" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/icons/iconmonstr-linkedin-3-240.png" alt="linkedin"></a>
         <a href="mailto:jessicabeshears@gmail.com"><img class="icon" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/icons/iconmonstr-paper-plane-1-240.png" alt="gmail"></a>
       </div>
-    </div>
   </body>
 </html>
