@@ -1,8 +1,10 @@
 :root {
-    --background-color: #111613;
+    /*--background-color: #111613;  #0E1A38 
+    --border-color: #DC9887;*/
+    --background-color: rgb(6, 17, 43);
+    --border-color: rgb(221, 87, 104);
     --text-color: #FEFFE5;
-    --border-color: #DC9887;
-    --accent-color: #E8BB44;
+    /*--accent-color: #E8BB44;*/
     --overlay-color: rgba(254, 255, 229, 0.7);
     
     --head-text: josefine, Verdana, 'Arial Narrow Bold', sans-serif;
@@ -251,6 +253,7 @@ h2 {
     margin-bottom: 25px;
     margin-left: 50px;
     object-fit: cover;
+    border: 1px solid var(--border-color);
 }
 
 .head_shot {
@@ -259,6 +262,7 @@ h2 {
     margin-left: 50px;
     object-fit: cover;
     border-radius: 50%;
+    border: 1px solid var(--border-color);
 }
 
 .photo_st_2 {
@@ -268,4 +272,5 @@ h2 {
     margin-bottom: 50px;
     margin-left: 50px;
     object-fit: cover;
+    border: 1px solid var(--border-color);
 }
