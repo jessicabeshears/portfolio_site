@@ -46,12 +46,12 @@ permalink: /contact/
         <a class="contact_link" href="https://www.linkedin.com/in/jessicabeshears/">LinkedIn</a>, 
           or shoot me an <a class="contact_link" href="mailto:jessicabeshears@gmail.com">email</a> 
           if you&#39;d like to get in contact.</p>
-        <p>You can download my resume <a class="contact_link" href="file:///C:/Portfolio/resources/css/docs/Jessica%20Beshears%20-%20Resume%20'22.pdf" download>here.</a></p>
+        <p>You can download my resume <a class="contact_link" href="https://github.com/jessicabeshears/portfolio_site/blob/main/resources/css/docs/Jessica%20Beshears%20-%20Resume%20'22.pdf" download>here.</a></p>
       </div>
       <div class="photos">
-        <img class="photo_st_1" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/books.JPG">
-        <img class="head_shot" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/head.jpg">
-        <img class="photo_st_2" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/records.jpg">
+        <img class="photo_st_1" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/books.JPG" alt="hobby photo">
+        <img class="head_shot" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/head.jpg" alt="head shot">
+        <img class="photo_st_2" src="https://raw.githubusercontent.com/jessicabeshears/portfolio_site/main/resources/css/images/records.jpg" alt="hobby photo">
       </div>
     </div>
       <div class="socials">
