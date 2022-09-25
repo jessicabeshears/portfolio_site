@@ -9,6 +9,48 @@
     --reg-text: Georgia, 'Times New Roman', serif;
 }
 
+@media screen and (max-width: 480px) {
+ div.navbar {
+        width: 90%;
+        padding-left: 20px;
+    }
+ h1#greeting {
+    margin-top: 75px;
+    font-size: 38px;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+ div.blurb {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+ }
+ h2.pro_head {
+    padding-left: 7%;
+ }
+ img.port_photo {
+    margin-left: 5%;
+    width: 90%;
+    height: 75%;
+ }
+ div.image_overlay {
+    display: none;
+ }
+ div.contact_display {
+    display: flex;
+ }
+ div.bio {
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    margin: 25px 5% 10px 5%;
+ }
+ div.photos {
+    display: none;
+ }
+ 
+}
+
 @font-face {
     font-family: josefine;
     src: url("../css/fonts/NT\ Josefine\ \(only\ personal\ use\).otf");
@@ -152,6 +194,10 @@ h2 {
     margin-right: 25%;
     color: (--background-color);
     font-weight: bold;
+}
+
+.phone_text {
+    display: none;
 }
 
 .socials {
